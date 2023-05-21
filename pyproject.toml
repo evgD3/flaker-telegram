@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "faker-telegram"
+version = "0.1.0"
+description = "faker telegram bot"
+authors = ["ejix <ejix@zp1.net>"]
+readme = "README.md"
+packages = [{include = "faker_telegram"}]
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+aiogram = "^2.25.1"
+Faker = "^18.9.0"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
