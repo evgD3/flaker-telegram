@@ -9,9 +9,7 @@ packages = [{include = "faker_telegram"}]
 [tool.poetry.dependencies]
 python = "^3.8.1"
 Faker = "^18.9.0"
-asyncio = "^3.4.3"
-aiogram = "^2.25.1"
-3 = "^0.0.0"
+pytelegrambotapi = "^4.12.0"
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^6.0.0"
